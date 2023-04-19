@@ -1,0 +1,18 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+<link rel="stylesheet" type="text/css" href="{% static 'myfirst.css' %}">
+<body>
+
+    {% with first_name="Tobias" %}
+      <h1>Hello {{ first_name }}, how are you?</h1>
+    {% endwith %}
+
+    {% for x in fruits %}
+      <h1>{{ x }}</h1>
+    {% endfor %}
+
+    <p>In views.py you can see what the fruits variable looks like.</p>
+
+</body>
+</html>
