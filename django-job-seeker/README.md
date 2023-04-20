@@ -18,6 +18,8 @@ Each one of the applications is composed of models and relationships. Next, we h
 
 ### Companies
 
+* Job Type
+    * Name
 * Company
     * type: HeadHunter | Software
 * Headhunter Company
