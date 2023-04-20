@@ -1,0 +1,3 @@
+django
+whitenoise
+django-bootstrap-v5
