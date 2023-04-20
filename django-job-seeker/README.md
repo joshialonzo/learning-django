@@ -58,6 +58,7 @@ Each one of the applications is composed of models and relationships. Next, we h
     * Description
     * Minimum salary
     * maximum salary
+    * url
 * Selection Process
     * Recruitment Firm
     * Software Company
