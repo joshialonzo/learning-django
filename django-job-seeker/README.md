@@ -63,16 +63,21 @@ Each one of the applications is composed of models and relationships. Next, we h
     * Title
     * Description
     * Minimum salary
-    * maximum salary
-    * url
+    * Maximum salary
+    * URL
+    * Status
+    * Schema: Payroll | Contractor
 * Selection Process
     * Recruitment Firm
     * Software Company
+    * Job Description
+    * Status
     * Technologies
     * Stages
     * Messages
 * Stage
     * Selection Process
+    * Number
 * Interview
     * Selection Process
     * Channel
