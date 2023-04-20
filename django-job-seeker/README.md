@@ -21,7 +21,10 @@ Each one of the applications is composed of models and relationships. Next, we h
 * Job Type
     * Name
 * Company
-    * type: HeadHunter | Software
+    * Company type: Job Type
+    * Company URL
+    * LinkedIn ID
+    * Country
 * Headhunter Company
     * Parent: Company
 * Software Company
@@ -56,7 +59,8 @@ Each one of the applications is composed of models and relationships. Next, we h
     * From
     * To
     * Date
-* Job Offer
+* Job Description
+    * Title
     * Description
     * Minimum salary
     * maximum salary
