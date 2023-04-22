@@ -29,7 +29,7 @@ Each one of the applications is composed of models and relationships. Next, we h
     * Parent: Company
 * Software Company
     * Parent Company
-    * type: Startup | Factory | Enterprise
+    * Sofwtare company type: Startup | Factory | Enterprise
     * Industry: Energy | Marketing | Cybersecurity
 
 ### Technologies
