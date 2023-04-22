@@ -1,6 +1,7 @@
 from django.contrib import admin
 
 from companies.models.company import Company
+from companies.models.headhunting import HeadhuntingFirm
 from companies.models.job_type import JobType
 
 
@@ -21,3 +22,13 @@ class CompanyAdmin(admin.ModelAdmin):
 
 
 admin.site.register(Company, CompanyAdmin)
+
+
+class HeadhuntingFirmAdmin(admin.ModelAdmin):
+    list_display = (
+        "name", "company_url",
+        "linkedin_id", "country", "id",
+    )
+
+
+admin.site.register(HeadhuntingFirm, HeadhuntingFirmAdmin)
