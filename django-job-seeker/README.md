@@ -69,7 +69,7 @@ Each one of the applications is composed of models and relationships. Next, we h
     * Channel
     * From
     * To
-    * Date
+    * Timestamp
 
 * Job Description
     * Title
