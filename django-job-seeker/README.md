@@ -67,9 +67,13 @@ Each one of the applications is composed of models and relationships. Next, we h
 
 * Message
     * Channel
-    * From
-    * To
+    * Language
+    * Sender
+    * Receiver
     * Timestamp
+    * Email
+    * Phone
+    * Text
 
 * Job Description
     * Title
