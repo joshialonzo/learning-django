@@ -77,17 +77,18 @@ Each one of the applications is composed of models and relationships. Next, we h
 
 * Job Description
     * Title
-    * Description
     * Minimum salary
     * Maximum salary
     * URL
-    * Status
     * Schema: Payroll | Contractor
+    * Location: Remote | Hybrid | On-site
+    * Status
+    * Description
+    * Software Company
 
 * Selection Process
-    * Recruitment Firm
-    * Software Company
     * Job Description
+    * Recruitment Firm
     * Status
     * Technologies
     * Stages
@@ -105,6 +106,7 @@ Each one of the applications is composed of models and relationships. Next, we h
 
 * Question
     * Interview
+    * Text
 
 ### Quizzes
 
