@@ -20,13 +20,16 @@ Each one of the applications is composed of models and relationships. Next, we h
 
 * Job Type
     * Name
+
 * Company
     * Company type: Job Type
     * Company URL
     * LinkedIn ID
     * Country
+
 * Headhunter Company
     * Parent: Company
+
 * Software Company
     * Parent Company
     * Sofwtare company type: Startup | Factory | Enterprise
@@ -37,8 +40,10 @@ Each one of the applications is composed of models and relationships. Next, we h
 * Stack
     * Name
     * Technologies
+
 * Technology
     * Name
+
 * Course
     * Name
     * Technologies
@@ -46,9 +51,15 @@ Each one of the applications is composed of models and relationships. Next, we h
 ### Workers
 
 * Worker
-    * type: Recruiter | Programmer | Leader
+    * First name
+    * Second name
+    * LinkedIn ID
+    * Position
+    * Company
+
 * Recruiter
     * Parent: Worker
+
 * Programmer
     * Parent: Worker
 
@@ -59,6 +70,7 @@ Each one of the applications is composed of models and relationships. Next, we h
     * From
     * To
     * Date
+
 * Job Description
     * Title
     * Description
@@ -67,6 +79,7 @@ Each one of the applications is composed of models and relationships. Next, we h
     * URL
     * Status
     * Schema: Payroll | Contractor
+
 * Selection Process
     * Recruitment Firm
     * Software Company
@@ -75,14 +88,17 @@ Each one of the applications is composed of models and relationships. Next, we h
     * Technologies
     * Stages
     * Messages
+
 * Stage
     * Selection Process
     * Number
+
 * Interview
     * Selection Process
     * Channel
     * Stage
     * Date
+
 * Question
     * Interview
 
@@ -91,6 +107,7 @@ Each one of the applications is composed of models and relationships. Next, we h
 * Quizz
     * Technology
     * Questions
+
 * Question
     * Technology
 
