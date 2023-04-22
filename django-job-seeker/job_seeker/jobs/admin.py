@@ -2,6 +2,7 @@ from django.contrib import admin
 
 from jobs.models.job_description import JobDescription
 from jobs.models.message import Message
+from jobs.models.selection_process import SelectionProcess
 
 
 # Register your models here.
@@ -24,3 +25,14 @@ class JobDescriptionAdmin(admin.ModelAdmin):
 
 
 admin.site.register(JobDescription, JobDescriptionAdmin)
+
+
+class SelectionProcessAdmin(admin.ModelAdmin):
+    list_display = (
+        "job_description",
+        "headhunting_firm",
+        "status",
+    )
+
+
+admin.site.register(SelectionProcess, SelectionProcessAdmin)

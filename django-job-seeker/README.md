@@ -84,15 +84,13 @@ Each one of the applications is composed of models and relationships. Next, we h
     * Location: Remote | Hybrid | On-site
     * Status
     * Description
+    * Technologies
     * Software Company
 
 * Selection Process
     * Job Description
-    * Recruitment Firm
+    * Headhunting Firm
     * Status
-    * Technologies
-    * Stages
-    * Messages
 
 * Stage
     * Selection Process
