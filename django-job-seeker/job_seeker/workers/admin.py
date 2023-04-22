@@ -1,6 +1,7 @@
 from django.contrib import admin
 
 from workers.models import Developer
+from workers.models import Recruiter
 from workers.models import Worker
 
 
@@ -25,3 +26,13 @@ class DeveloperAdmin(admin.ModelAdmin):
 
 
 admin.site.register(Developer, DeveloperAdmin)
+
+
+class RecruiterAdmin(admin.ModelAdmin):
+    list_display = (
+        "first_name", "last_name",
+        "linkedin_id", "country", "id",
+    )
+
+
+admin.site.register(Recruiter, RecruiterAdmin)
