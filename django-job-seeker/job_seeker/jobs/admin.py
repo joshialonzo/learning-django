@@ -2,6 +2,7 @@ from django.contrib import admin
 
 from jobs.models.job_description import JobDescription
 from jobs.models.message import Message
+from jobs.models.question import Question
 from jobs.models.selection_process import SelectionProcess
 
 
@@ -36,3 +37,10 @@ class SelectionProcessAdmin(admin.ModelAdmin):
 
 
 admin.site.register(SelectionProcess, SelectionProcessAdmin)
+
+
+class QuestionAdmin(admin.ModelAdmin):
+    list_display = ("text",)
+
+
+admin.site.register(Question, QuestionAdmin)

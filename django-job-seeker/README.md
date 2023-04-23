@@ -92,19 +92,16 @@ Each one of the applications is composed of models and relationships. Next, we h
     * Headhunting Firm
     * Status
 
+* Question
+    * Text
+    * Answer
+
 * Stage
     * Selection Process
     * Number
-
-* Interview
-    * Selection Process
     * Channel
-    * Stage
     * Date
-
-* Question
-    * Interview
-    * Text
+    * Questions
 
 ### Quizzes
 
