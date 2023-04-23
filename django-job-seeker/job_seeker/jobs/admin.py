@@ -4,6 +4,7 @@ from jobs.models.job_description import JobDescription
 from jobs.models.message import Message
 from jobs.models.question import Question
 from jobs.models.selection_process import SelectionProcess
+from jobs.models.stage import Stage
 
 
 # Register your models here.
@@ -44,3 +45,13 @@ class QuestionAdmin(admin.ModelAdmin):
 
 
 admin.site.register(Question, QuestionAdmin)
+
+
+class StageAdmin(admin.ModelAdmin):
+    list_display = (
+        "selection_process", "channel",
+        "platform", "event_date",
+    )
+
+
+admin.site.register(Stage, StageAdmin)

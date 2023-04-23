@@ -100,6 +100,7 @@ Each one of the applications is composed of models and relationships. Next, we h
     * Selection Process
     * Number
     * Channel
+    * Platform
     * Date
     * Questions
 
