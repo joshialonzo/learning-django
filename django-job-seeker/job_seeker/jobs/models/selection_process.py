@@ -25,6 +25,8 @@ class SelectionProcess(Base):
     headhunting_firm = models.ForeignKey(
         HeadhuntingFirm,
         on_delete=models.CASCADE,
+        blank=True,
+        null=True,
     )
     status = models.IntegerField(
         choices=STATUS_CHOICES,
