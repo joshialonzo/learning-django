@@ -116,3 +116,15 @@ Each one of the applications is composed of models and relationships. Next, we h
 ## Relationships
 
 ...
+
+## Instructions
+
+### When we've got a new recruiter message
+
+* Create the Headhunting company
+* Register the recruiter
+* Register the recruiter messages
+* Create the software company if it is available
+* Create a job description
+* Create a selection process
+* Register a stage if we have a scheduled meeting
