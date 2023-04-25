@@ -23,7 +23,7 @@ class JobDescription(Base):
         ("Inactive", "Inactive"),
     ]
 
-    title = models.CharField(max_length=30, blank=True)
+    title = models.CharField(max_length=100, blank=True)
     minimum_salary = models.IntegerField(blank=True, null=True)
     maximum_salary = models.IntegerField(blank=True, null=True)
     url = models.URLField(blank=True, null=True)
