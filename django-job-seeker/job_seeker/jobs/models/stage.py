@@ -3,6 +3,7 @@ from django.db import models
 from common.models import Base
 from jobs.models.question import Question
 from jobs.models.selection_process import SelectionProcess
+from workers.models.worker import Worker
 
 
 # Create your models here.
@@ -28,6 +29,11 @@ class Stage(Base):
         max_length=30, blank=True,
     )
     event_date = models.DateTimeField(
+        blank=True, null=True,
+    )
+    interviewer = models.ForeignKey(
+        Worker,
+        on_delete=models.CASCADE,
         blank=True, null=True,
     )
     questions = models.ManyToManyField(Question)

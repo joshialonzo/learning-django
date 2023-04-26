@@ -50,7 +50,7 @@ admin.site.register(Question, QuestionAdmin)
 class StageAdmin(admin.ModelAdmin):
     list_display = (
         "selection_process", "channel",
-        "platform", "event_date",
+        "platform", "event_date", "interviewer",
     )
 
 
