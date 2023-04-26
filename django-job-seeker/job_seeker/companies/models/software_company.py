@@ -18,6 +18,7 @@ class SoftwareCompany(Company):
         ("Finance", "Finance"),
         ("Social Media", "Social Media"),
         ("Media", "Media"),
+        ("Healthcare", "Healthcare"),
     ]
 
     software_company_type = models.CharField(
