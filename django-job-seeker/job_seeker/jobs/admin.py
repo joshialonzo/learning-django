@@ -33,6 +33,7 @@ class SelectionProcessAdmin(admin.ModelAdmin):
     list_display = (
         "job_description",
         "headhunting_firm",
+        "software_company",
         "status",
     )
 

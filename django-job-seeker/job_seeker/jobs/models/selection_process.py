@@ -36,6 +36,10 @@ class SelectionProcess(Base):
     class Meta:
         ordering = ["job_description", "status"]
         verbose_name_plural = "Selection processes"
+    
+    @property
+    def software_company(self):
+        return self.job_description.software_company
 
     def __str__(self) -> str:
         return (
