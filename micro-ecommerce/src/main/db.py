@@ -3,7 +3,7 @@
 # for standalone Postgres.
 
 import dj_database_url
-from django_main.env import config
+from main.env import config
 
 
 DATABASE_URL = config("DATABASE_URL", default=None)
