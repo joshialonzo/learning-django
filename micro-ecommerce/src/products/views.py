@@ -20,3 +20,11 @@ def product_create_view(request):
 
     context["form"] = form
     return render(request, "products/create.html", context)
+
+
+def product_list_view(request):
+    object_list = Product.objects.all()
+    context = {
+        "object_list": object_list,
+    }
+    return render(request, "products/list.html", context)
