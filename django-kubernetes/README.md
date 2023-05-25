@@ -1,0 +1,1 @@
+# [Deploy Django into Production with Kubernetes, Docker, & Github Actions](https://www.youtube.com/watch?v=NAOsLaB6Lfc)
