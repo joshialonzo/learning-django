@@ -11,3 +11,7 @@
 * Django GMail Clone
 * Django Dropbox Clone
 * Django Social Media Clone
+
+## LinkedIn Learning Courses
+
+* [Building React and Django Apps](https://www.linkedin.com/learning/building-react-and-django-apps): [Project](building-react-and-django-apps/README.md)
