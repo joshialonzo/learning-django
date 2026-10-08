@@ -140,3 +140,15 @@ GitHub.sublime-settings
 
 # JavaScript
 node_modules
+
+# building-react-and-django-apps
+building-react-and-django-apps/frontend/build/
+building-react-and-django-apps/frontend/coverage/
+building-react-and-django-apps/frontend/cypress/videos/
+building-react-and-django-apps/frontend/cypress/screenshots/
+building-react-and-django-apps/frontend/.env.local
+building-react-and-django-apps/frontend/.env.*.local
+building-react-and-django-apps/backend/api/uploads/
+
+# MacOS
+.DS_Store
